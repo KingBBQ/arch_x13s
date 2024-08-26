@@ -75,6 +75,17 @@ yourhostname
 15. reboot!
 
 
+# Install proper video drivers
+
+for example: https://gitlab.com/TheOneWithTheBraid/sc8280xp-alarm/
+
+```bash
+git clone https://gitlab.com/TheOneWithTheBraid/sc8280xp-alarm/
+cd sc8280xp-alarm/sc8280xp-firmware/
+makepkg -si # build & install
+cd linux-x13s-rc/
+makepkg -si # build & install
+```
 
 
 
