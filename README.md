@@ -105,3 +105,8 @@ ExecStartPre=/bin/bash -c 'sleep 5 && yes | btmgmt public-addr 00:24:81:17:62:36
 ExecStart=
 ExecStart=/usr/lib/bluetooth/bluetoothd
 ```
+
+## Signal for ARCH / AARM64
+
+Took me a while to find this: 
+https://signalflatpak.github.io/signal/
